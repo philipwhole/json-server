@@ -2,19 +2,19 @@
   "name": "json-server2",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": { 
-    "start": "json-server --watch employees.json",
+  "scripts": {
+    "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
   "description": "",
-
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "nodemon": "^3.0.1"
   }
 }

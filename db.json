@@ -1,4 +1,17 @@
-{
+{    
+    "posts": [
+    {
+      "id": 1,
+      "title": "My first post",
+      "content": "This is my first post on my new blog!"
+    },
+    {
+      "id": 2,
+      "title": "Another post",
+      "content": "This is another post on my new blog!"
+    }
+  ],
+  
   "employees": [
     {
       "id": 15,
