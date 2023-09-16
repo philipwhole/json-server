@@ -29,12 +29,10 @@ server.post('/posts', (req, res) => {
   };
 
   // Assuming you have a 'posts' property in your JSON data file
-  const db = router.db;
-  db.get('posts').push(newPost).write();
+  router.db.get('posts').push(newPost).write();
 
   res.status(201).json(newPost); // Respond with the created resource
 });
-
 
 server.use(middlewares);
 server.use(router);
