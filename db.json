@@ -1,24 +1,23 @@
-{    
-    "posts": [
+{
+  "posts": [
     {
-      "id": 1,
       "title": "My first post",
-      "content": "This is my first post on my new blog!"
+      "content": "Hello World!",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Another post",
-      "content": "This is another post on my new blog!"
+      "title": "My nouveau post",
+      "content": "Bonjour!",
+      "id": 2
     }
   ],
-  
   "employees": [
     {
       "id": 15,
       "first_name": "Philip",
       "last_name": "Hou",
       "email": "philipwhole@gmail.com",
-      "salary": 60622.85 
+      "salary": 60622.85
     },
     {
       "id": 16,
